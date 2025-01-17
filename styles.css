@@ -1,41 +1,55 @@
-/*  your css code here. If applicable */
 /* General Reset */
 
+
+/* Body Styling */
 body {
   background-color: #f5f5f5;
 }
 
 /* Header */
-.header {
-  background-color:  #011e29;
+header {
+  background-color: #011e29;
   color: white;
   text-align: center;
   padding: 20px;
-	width:100%
 }
 
 /* Main Content Layout */
 .content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
 }
 
-/* Latest News Section */
-.latest-news, .main-article, .pictorial-news {
+/* Section Styling */
+.latest-news-section, .main-article-section, .pictorial-news-section {
   background-color: white;
   border-radius: 10px;
- 
   padding: 20px;
-
-	  margin: 5px
+  margin: 5px;
+  width: 30%;
 }
 
+/* Latest News List */
 
 
+.latest-news-section li {
+  margin-bottom: 10px;
+}
 
-.pictorial-news img {
+/* Pictorial News */
+.pictorial-news-section {
+  text-align: center;
+}
+
+.pictorial-news-section img {
   width: 100px;
   border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Main Article Section */
+.main-article-section p {
+  text-align: justify;
 }
